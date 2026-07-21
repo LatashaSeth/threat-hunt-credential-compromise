@@ -1,5 +1,6 @@
 # Threat Hunt: Credential Compromise in a Healthcare Environment
 Threat hunt reconstructing a credential-compromise attack from live enterprise telemetry — KQL, Microsoft Defender, MITRE ATT&amp;CK mapping. 
+📄 **[Download the full case study (PDF)](Threat_Hunt_Case_Study.pdf)** — a 3-page executive summary of this investigation.
 
 **A hands-on threat-hunting case study across live enterprise telemetry, using KQL and Microsoft Defender Advanced Hunting**
 
