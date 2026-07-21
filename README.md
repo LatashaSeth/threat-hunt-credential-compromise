@@ -238,8 +238,8 @@ The intrusion succeeded because of identifiable control failures — the basis f
 - **Remote access & boundary protection (AC-17, SC-7)** — external RDP reached internal workstations.
 - **Identity & monitoring (IA-2, SI-4)** — valid-credential misuse from an external source generated no alert; MFA would have broken the takeover.
 
-*A full control-gap analysis and target-state access matrix is maintained as a separate deliverable.*
+📄 **[Download this case study as a PDF](Threat_Hunt_Case_Study.pdf)** — print-friendly version for offline reading or attaching to applications.
 
----
+*The companion control-gap analysis and target-state access matrix is in development and will be linked here.*
 
-*This case study documents work performed in the Log(n) Pacific cyber range for skills development. The range environment and telemetry are real; Nimbus Health is a fictional organization.*
+
