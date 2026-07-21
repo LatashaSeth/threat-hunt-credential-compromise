@@ -74,7 +74,7 @@ DeviceLogonEvents
 | sort by Sessions desc
 ```
 
-![Finding 1 — External RDP sources](screenshots/01-external-rdp-sources.png)
+![Finding 1 — External RDP sources](Finding1ExternalRDPsources.png)
 
 **Why it matters:** A billing analyst sitting at a desk does not generate remote sessions from public internet IPs. This is the first crack in the "insider" story — the account is being *driven from* somewhere it shouldn't be.
 
