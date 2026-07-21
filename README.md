@@ -5,8 +5,14 @@ Threat hunt reconstructing a credential-compromise attack from live enterprise t
 
 > This investigation was conducted in the Log(n) Pacific — a hands-on SOC training environment built on live, raw enterprise telemetry. *Nimbus Health is a fictional organization used for this exercise; the Log(n) Pacific environment and its telemetry are real.* The work demonstrates methodology, KQL proficiency, and analytical reasoning.
 
-**Author:** Latasha Seth 
-**Environment:** Log(n) Pacific · **Platform:** Microsoft Sentinel + Microsoft Defender for Endpoint (MDE) · **Language:** KQL (Kusto Query Language)
+**Technology Used**
+**Platform:** Microsoft Sentinel + Microsoft Defender for Endpoint (MDE) 
+**Language:** KQL (Kusto Query Language)
+
+**Analyst:** Latasha Seth
+**Title:** Security Analyst
+**Program:** Log(n) Pacific — SOC Build Project
+**Date:** July 13, 2026
 
 ---
 
