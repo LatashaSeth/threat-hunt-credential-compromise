@@ -120,7 +120,7 @@ DeviceProcessEvents
 | sort by Timestamp asc
 ```
 
-![Finding 3 — IT box red herring](screenshots/04-red-herring.png)
+![Finding 3 — IT box red herring](Finding3ITboxredherring.png)
 
 **Why it matters:** *Absence is a finding.* A landing is not activity. Proving the IT hop was empty confirmed the real impact was concentrated entirely on the file server — and demonstrates the rigor to distinguish a probe from an actioned host.
 
