@@ -98,7 +98,7 @@ DeviceProcessEvents
 
 The sequence: `whoami` → `hostname` → `net use` → `net view` → **`net view \\NH-FS-01`** — general orientation collapsing onto one named system, the file server. A later, second burst widened the net with `net view /domain:nimbus` (domain enumeration) and an `nslookup`/`arp` sweep of the local subnet, immediately preceding a pivot.
 
-![Finding 2 — Recon burst](screenshots/03-recon-burst.png)
+![Finding 2 — Recon burst](Finding2Reconburst.png)
 
 **Why it matters:** This is classic post-access discovery (MITRE T1033, T1069, T1087, T1135). Recon wasn't aimless — it selected a target and mapped the path to it.
 
