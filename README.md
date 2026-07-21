@@ -152,7 +152,7 @@ DeviceFileEvents
 | sort by Timestamp asc
 ```
 
-![Finding 5 — HR collection](screenshots/06-hr-collection.png)
+![Finding 5 — HR collection](Finding5HRcollection.png)
 
 The account opened another employee's payroll review (`payroll_review_dpatel_20260311.txt`) and, in the same burst, took a **non-payroll** HR file — `quarterly_awards_shortlist_20260310.txt` — which has no financial value. Payroll data was also staged inside billing folders under a disguised double-extension filename (`payroll_exception_reference_20260311.txt.txt`).
 
