@@ -19,7 +19,7 @@ Threat hunt reconstructing a credential-compromise attack from live enterprise t
 
 ## Executive Summary
 
-A billing analyst account at a simulated healthcare clinic was flagged for unusual activity and referred for a "stale-access housekeeping" review. Telemetry told a different story. The account (`j.morris`) was not being used by an employee at the billing desk — it was being **driven remotely over RDP from external, public IP addresses**, using valid credentials. Once inside, the operator performed systematic reconnaissance, pivoted to the file server, **fabricated a fraudulent approved invoice, tampered with the billing audit trail, and systematically collected HR and payroll data belonging to other employees.**
+A billing analyst account at a healthcare clinic was flagged for unusual activity and referred for a "stale-access housekeeping" review. Telemetry told a different story. The account (`j.morris`) was not being used by an employee at the billing desk — it was being **driven remotely over RDP from external, public IP addresses**, using valid credentials. Once inside, the operator performed systematic reconnaissance, pivoted to the file server, **fabricated a fraudulent approved invoice, tampered with the billing audit trail, and systematically collected HR and payroll data belonging to other employees.**
 
 The honest root cause was **not** an insider mistake and **not** malware. It was **credential compromise / account takeover by an external actor** — provable precisely because of what was *absent*: no dropped binaries, no exploitation, only native Windows tools and valid credentials throughout.
 
